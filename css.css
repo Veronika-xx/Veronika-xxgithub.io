@@ -14,7 +14,7 @@ header {
     background: linear-gradient(45deg, #235778, #50e3c2);
     color: white;
 }
-.containerг {
+.containerr {
     width: 90%;
     margin: auto;
     max-width: 1200px;
@@ -22,7 +22,7 @@ header {
 
 header h1 {
     font-size: 48px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 header p {
     font-size: 33px;
