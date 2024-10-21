@@ -1,0 +1,110 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background: linear-gradient(45deg, #235778, #50e3c2);
+    color: white;
+}
+.containerг {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 33px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #235778;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    margin: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4a90e2;
+    border-bottom: 2px solid #4a90e2;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 28px;
+    color: #235778;
+    border-bottom: 2px solid #461b00;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: disc inside;
+}
+
+ul li {
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+
+#contact a {
+    color: #461b00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #235778;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
